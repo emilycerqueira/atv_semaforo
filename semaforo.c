@@ -1,9 +1,7 @@
 #include "pico/stdlib.h"
 #include "hardware/timer.h"
 
-#define LED_VERMELHO 11
-#define LED_AMARELO 12
-#define LED_VERDE 13
+
 
 volatile int estado = 0;
 
